@@ -18,7 +18,7 @@ import { Telemetry } from './utils/telemetry'
 import flowiseApiV1Router from './routes'
 import errorHandlerMiddleware from './middlewares/errors'
 import { WHITELIST_URLS } from './utils/constants'
-import { initializeJwtCookieMiddleware, verifyToken } from './enterprise/middleware/passport'
+import { initializeJwtCookieMiddleware, verifyToken, verifyTokenForBullMQDashboard } from './enterprise/middleware/passport'
 import { IdentityManager } from './IdentityManager'
 import { SSEStreamer } from './utils/SSEStreamer'
 import { validateAPIKey } from './utils/validateKey'
@@ -73,6 +73,7 @@ export class App {
     queueManager: QueueManager
     redisSubscriber: RedisEventSubscriber
     usageCacheManager: UsageCacheManager
+    sessionStore: any
 
     constructor() {
         this.app = express()
@@ -163,7 +164,19 @@ export class App {
         this.app.use(express.urlencoded({ limit: flowise_file_size_limit, extended: true }))
 
         // Enhanced trust proxy settings for load balancer
-        this.app.set('trust proxy', true) // Trust all proxies
+        let trustProxy: string | boolean | number | undefined = process.env.TRUST_PROXY
+        if (typeof trustProxy === 'undefined' || trustProxy.trim() === '' || trustProxy === 'true') {
+            // Default to trust all proxies
+            trustProxy = true
+        } else if (trustProxy === 'false') {
+            // Disable trust proxy
+            trustProxy = false
+        } else if (!isNaN(Number(trustProxy))) {
+            // Number: Trust specific number of proxies
+            trustProxy = Number(trustProxy)
+        }
+
+        this.app.set('trust proxy', trustProxy)
 
         // Allow access from specified domains
         this.app.use(cors(getCorsOptions()))
@@ -267,8 +280,7 @@ export class App {
                             activeOrganizationProductId: productId,
                             isOrganizationAdmin: true,
                             activeWorkspaceId: apiKeyWorkSpaceId!,
-                            activeWorkspace: workspace.name,
-                            isApiKeyValidated: true
+                            activeWorkspace: workspace.name
                         }
                         next()
                     }
@@ -319,7 +331,17 @@ export class App {
         })
 
         if (process.env.MODE === MODE.QUEUE && process.env.ENABLE_BULLMQ_DASHBOARD === 'true' && !this.identityManager.isCloud()) {
-            this.app.use('/admin/queues', this.queueManager.getBullBoardRouter())
+            // Initialize admin queues rate limiter
+            const id = 'bullmq_admin_dashboard'
+            await this.rateLimiterManager.addRateLimiter(
+                id,
+                60,
+                100,
+                process.env.ADMIN_RATE_LIMIT_MESSAGE || 'Too many requests to admin dashboard, please try again later.'
+            )
+
+            const rateLimiter = this.rateLimiterManager.getRateLimiterById(id)
+            this.app.use('/admin/queues', rateLimiter, verifyTokenForBullMQDashboard, this.queueManager.getBullBoardRouter())
         }
 
         // ----------------------------------------
