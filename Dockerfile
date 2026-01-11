@@ -1,7 +1,6 @@
-# ESTÁGIO 1: Build (A "Cozinha")
+# ESTÁGIO 1: Build
 FROM node:20-alpine AS builder
 
-# Instala dependências do sistema necessárias para compilar módulos nativos
 RUN apk add --no-cache \
     libc6-compat \
     python3 \
@@ -13,21 +12,21 @@ RUN apk add --no-cache \
     chromium \
     curl
 
-# Instala o pnpm globalmente
 RUN npm install -g pnpm@latest
 
 WORKDIR /usr/src/flowise
 
-# Copia apenas os ficheiros de configuração primeiro (otimização de cache)
-COPY pnpm-lock.yaml pnpm-workspace.yaml package.json ./
+# 🛠️ CORREÇÃO: Copiar TODOS os arquivos de configuração da raiz
+# Precisamos do turbo.json, tsconfig.json e as definições do workspace
+COPY pnpm-lock.yaml pnpm-workspace.yaml package.json turbo.json tsconfig.json ./
+
+# Copia as pastas dos pacotes
 COPY packages ./packages
 
-# 🛠️ CORREÇÃO 1: Instala dependências permitindo scripts de build (necessário p/ sharp, canvas, etc)
-# O flag --no-frozen-lockfile ajuda se houver discrepâncias de versão
+# Instala as dependências
 RUN pnpm install --no-frozen-lockfile
 
-# 🛠️ CORREÇÃO 2: Build do projeto
-# O aumento de memória ajuda o Turbo/TS a não crashar
+# Configuração de memória e Build
 ENV NODE_OPTIONS=--max-old-space-size=8192
 RUN pnpm build
 
