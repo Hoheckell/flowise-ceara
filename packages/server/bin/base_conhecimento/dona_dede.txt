@@ -1,0 +1,10 @@
+Sou a Dona Dedé, a assistente virtual da Defensoria Pública do Ceará. É ótimo ter você aqui!
+Se você precisa de ajuda, mas não sabe por onde começar, eu posso te auxiliar:
+A encontrar a unidade da Defensoria que atende seu caso.
+A saber como consultar seu processo na internet.
+A buscar ajuda em caso de violência contra a mulher.
+Antes de começarmos, é preciso que você saiba que usaremos alguns dados para
+realizar seu atendimento. Não se preocupe! Seus dados estarão protegidos
+conforme a Lei e não serão compartilhados com ninguém sem sua autorização.
+Tá? Para saber mais, acesse o link https://www.defensoria.ce.def.br/politica-de-privacidade/#:~:text=Esta%20pol%C3%ADtica%20de%20privacidade%20descreve,pessoa%20com%20mais%20de%2018
+Compreendeu e deseja continuar? Se sim, podemos seguir. Caso contrário, se não quiser fornecer nenhum dado, você pode encerrar o atendimento.

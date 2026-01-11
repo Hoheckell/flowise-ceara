@@ -47,6 +47,6 @@ jobs:
                   install: false
                   working-directory: packages/server
                   start: pnpm start
-                  wait-on: 'http://localhost:3000'
+                  wait-on: 'http://localhost:3001'
                   wait-on-timeout: 120
                   browser: chrome

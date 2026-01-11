@@ -1,0 +1,147 @@
+⚖️ Vara Cível
+
+A Vara Cível é responsável por causas que envolvem obrigações patrimoniais, contratos, responsabilidade civil, posse, propriedade e questões empresariais.
+Abrange ações de cobrança, indenizações, reintegração de posse, despejo, execuções e cumprimento de contratos.
+
+
+👨‍👩‍👧‍👦 Vara da Família
+
+Competente para julgar processos que tratam de relações familiares e direitos decorrentes da convivência, como divórcio, guarda, alimentos, investigação de paternidade, tutela e curatela.
+Pode envolver o Ministério Público e perícias psicossociais.
+
+
+👶 Vara da Infância e Juventude
+
+Julga questões que envolvem crianças e adolescentes, tanto em situação de risco pessoal/social (acolhimento, adoção, medidas protetivas), quanto atos infracionais cometidos por menores.
+Atua com prioridade absoluta e caráter socioeducativo.
+
+
+🏛️ Vara Criminal
+
+Responsável por processar e julgar crimes comuns, contravenções penais e infrações de menor potencial ofensivo (quando não houver Juizado Especial Criminal).
+Pode abranger instrução criminal, pronúncia e execução provisória da pena.
+
+
+⚰️ Vara do Tribunal do Júri
+
+Julga crimes dolosos contra a vida, como homicídio, infanticídio, aborto e instigação ao suicídio.
+Possui procedimento especial com júri popular (sete jurados sorteados).
+
+
+💼 Vara da Fazenda Pública
+
+Julga causas que envolvem entes públicos (União, Estado, Município, autarquias e fundações públicas).
+Abrange ações de servidores públicos, tributos, licitações, desapropriação e responsabilidade civil do Estado.
+
+
+🧾 Vara de Execuções Fiscais
+
+Competente para processar e julgar ações de cobrança de dívidas tributárias ou não tributárias devidas à Fazenda Pública (impostos, taxas, multas).
+Tem rito próprio, com penhora e leilão de bens.
+
+
+🧑‍⚖️ Vara de Execuções Penais (VEP)
+
+Responsável pela fiscalização do cumprimento da pena após condenação.
+Decide sobre progressão de regime, livramento condicional, indulto, remição e incidentes de execução penal.
+
+
+⚙️ Vara do Trabalho (Justiça do Trabalho)
+
+Julga conflitos entre empregadores e empregados, bem como questões sindicais e indenizatórias decorrentes da relação de trabalho.
+Segue rito próprio regido pela CLT e prioriza a conciliação.
+
+
+🧭 Vara Federal (Justiça Federal)
+
+Julga causas em que a União, autarquias ou empresas públicas federais sejam partes (como INSS, Caixa Econômica, IBAMA, etc.).
+Abrange também matérias de direito previdenciário, aduaneiro e fiscal federal.
+
+
+🪙 Vara de Execuções de Títulos Extrajudiciais
+
+Especializada em execução direta de dívidas baseadas em documentos com força executiva (cheques, notas promissórias, contratos com confissão de dívida).
+Trata-se de fase de cobrança sem necessidade de processo de conhecimento.
+
+
+🧒 Vara de Sucessões
+
+Responsável por inventários, partilhas, testamentos e arrolamentos.
+Atua após o falecimento, regulando a transmissão do patrimônio aos herdeiros e legatários.
+
+
+🕊️ Vara de Registros Públicos
+
+Cuida de retificações e registros civis, imobiliários e de pessoas jurídicas.
+Julga ações sobre nome, averbações, registros tardios, duplicidade de matrícula e regularização de imóveis.
+
+
+🏘️ Vara de Meio Ambiente e Urbanismo
+
+Julga ações civis públicas e individuais que envolvem dano ambiental, licenciamento, poluição, ocupação irregular, saneamento e patrimônio natural.
+Pode determinar medidas urgentes (interdições, perícias e compensações ambientais).
+
+
+⚖️ Vara de Violência Doméstica e Familiar contra a Mulher
+
+Especializada em casos regidos pela Lei Maria da Penha (Lei 11.340/2006).
+Processa medidas protetivas, ações penais e cíveis (como guarda e alimentos) relacionadas à violência doméstica.
+
+
+💊 Vara de Saúde Pública
+
+Julga ações que envolvem fornecimento de medicamentos, tratamentos médicos, internações, cirurgias e políticas públicas de saúde.
+Exige atuação técnica e, muitas vezes, perícia médica.
+
+
+⚖️ Vara Empresarial
+
+Competente para causas envolvendo sociedades empresárias, propriedade industrial, marcas, patentes, falência, recuperação judicial e direito societário.
+Processos costumam envolver perícia contábil e alta complexidade técnica.
+
+
+🧠 Vara de Interdições e Curatelas
+
+Julga pedidos de interdição de pessoas incapazes, nomeação de curadores e administração de bens de pessoas com deficiência mental, dependência química ou idade avançada.
+Pode exigir laudos médicos e avaliação multiprofissional.
+
+
+🏡 Juizado Especial Cível (JEC)
+
+Julga causas de menor complexidade e baixo valor (até 40 salários mínimos).
+Busca celeridade e conciliação, com procedimentos simplificados e sem necessidade obrigatória de advogado (até 20 salários mínimos).
+
+
+👮 Juizado Especial Criminal (JECRIM)
+
+Julga infrações de menor potencial ofensivo (pena máxima até 2 anos), priorizando acordo, transação penal e composição civil.
+Visa à despenalização e solução rápida dos conflitos.
+
+
+Perfeito.
+Aqui está uma tabela comparativa organizada com as principais varas existentes no Brasil, suas competências e exemplos de ações/processos típicos — ideal para consulta ou uso didático em aulas de Direito Processual.
+
+
+⚖️ Tabela – Varas, Competências e Exemplos de Ações Típicas
+
+Tipo de Vara Competência Principal Exemplos de Ações ou Processos Típicos
+Vara Cível Obrigações patrimoniais, contratos, posse e responsabilidade civil. Ação de cobrança; Ação de indenização; Reintegração de posse; Despejo; Cumprimento de contrato.
+Vara da Família Relações familiares e direitos de convivência. Divórcio; Guarda e visitas; Alimentos; Investigação de paternidade; Tutela e curatela.
+Vara da Infância e Juventude Proteção integral a crianças e adolescentes, medidas protetivas e socioeducativas. Adoção; Acolhimento institucional; Medida socioeducativa; Destituição de poder familiar.
+Vara Criminal Crimes comuns e contravenções penais. Furto, roubo, estelionato, lesão corporal; Audiências de instrução e julgamento.
+Vara do Tribunal do Júri Crimes dolosos contra a vida. Homicídio; Infanticídio; Aborto; Induzimento ao suicídio.
+Vara da Fazenda Pública Causas envolvendo o Estado, municípios, autarquias e fundações públicas. Ação de servidor público; Mandado de segurança; Ação tributária; Desapropriação.
+Vara de Execuções Fiscais Cobrança judicial de tributos e créditos públicos. Execução fiscal de IPTU, ICMS, IPVA; Penhora e leilão de bens.
+Vara de Execuções Penais (VEP) Fiscalização e controle da execução das penas. Progressão de regime; Livramento condicional; Indulto; Remição de pena.
+Vara do Trabalho Relações de trabalho e emprego, sindicatos e indenizações trabalhistas. Reclamação trabalhista; Ação de horas extras; Danos morais trabalhistas; Verbas rescisórias.
+Vara Federal Causas em que a União ou entidades federais são parte. Ação previdenciária (INSS); Execução fiscal federal; Mandado de segurança contra órgão federal.
+Vara de Execuções de Títulos Extrajudiciais Execução de dívidas documentadas. Execução de cheque, nota promissória, contrato com confissão de dívida.
+Vara de Sucessões Inventários, partilhas e testamentos. Inventário judicial; Arrolamento de bens; Cumprimento de testamento.
+Vara de Registros Públicos Questões relativas a registros civis, imóveis e pessoas jurídicas. Retificação de registro civil; Dúvida registral; Regularização imobiliária.
+Vara de Meio Ambiente e Urbanismo Ações coletivas e individuais sobre meio ambiente e ordenamento urbano. Ação civil pública ambiental; Embargo de construção irregular; Dano ecológico.
+Vara de Violência Doméstica e Familiar contra a Mulher Crimes e medidas de proteção regidos pela Lei Maria da Penha. Medidas protetivas de urgência; Ação penal por agressão doméstica; Ação de guarda vinculada.
+Vara de Saúde Pública Ações relacionadas ao direito à saúde e políticas públicas. Fornecimento de medicamento; Internação hospitalar; Tratamento médico de urgência.
+Vara Empresarial Direito societário, falências, recuperação judicial e propriedade industrial. Recuperação judicial; Falência; Ação sobre marca e patente; Dissolução de sociedade.
+Vara de Interdições e Curatelas Processos de incapacidade civil e nomeação de curador. Interdição; Prestação de contas do curador; Autorização judicial para atos do curatelado.
+Juizado Especial Cível (JEC) Causas de menor complexidade e pequeno valor (até 40 SM). Cobrança de pequenas dívidas; Danos materiais; Conflitos de consumo; Conciliação.
+Juizado Especial Criminal (JECRIM) Infrações de menor potencial ofensivo (pena ≤ 2 anos). Transação penal; Composição civil de danos; Termo circunstanciado.

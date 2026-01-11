@@ -1,0 +1,9 @@
+Antes de começarmos, é preciso que você saiba que usaremos alguns dados para
+realizar seu atendimento. Não se preocupe! Seus dados estarão protegidos
+conforme a Lei e não serão compartilhados com ninguém sem sua autorização.
+Tá? Para saber mais, veja nossa Política de Privacidade.
+ação 1: informa um link para a url não deve aparecer a url e sim um link escrito "Ver Política de Privacidade" que abrir a url https://www.defensoria.ce.def.br/politica-de-privacidade/#:~:text=Esta%20pol%C3%ADtica%20de%20privacidade%20descreve,pessoa%20com%20mais%20de%2018
+ação 2: perguntar se possui CPF
+ação 3: verificar se possui CPF
+caso não possui cpf: ação 4: Por favor, informe seu nome completo.
+caso possui cpf: ação 5: Por favor, digite o número do seu CPF, sem pontos e sem traços, tá?
