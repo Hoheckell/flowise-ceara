@@ -16,18 +16,20 @@ RUN npm install -g pnpm@latest
 
 WORKDIR /usr/src/flowise
 
-# 🛠️ CORREÇÃO: Copiar TODOS os arquivos de configuração da raiz
-# Precisamos do turbo.json, tsconfig.json e as definições do workspace
-COPY pnpm-lock.yaml pnpm-workspace.yaml package.json turbo.json tsconfig.json ./
+# 🛠️ CORREÇÃO: Remova o tsconfig.json desta linha, já que ele não existe na raiz.
+# Deixe o turbo.json com o curinga (*) para garantir que não quebre se ele também não estiver aí.
+COPY pnpm-lock.yaml pnpm-workspace.yaml package.json turbo.jso* ./
 
-# Copia as pastas dos pacotes
+# Este comando abaixo já leva os tsconfig.json internos (components e server)
 COPY packages ./packages
 
-# Instala as dependências
-RUN pnpm install --no-frozen-lockfile
+# ----------------------------------------------------------------
+# 💡 DICA DE OURO: Se o build do Turbo reclamar que falta um tsconfig na raiz,
+# você pode criar um "fake" apenas para satisfazer o compilador:
+RUN echo '{"compilerOptions": {"composite": true}}' > tsconfig.json
 
-# Configuração de memória e Build
-ENV NODE_OPTIONS=--max-old-space-size=8192
+# Agora instale e builde
+RUN pnpm install --no-frozen-lockfile
 RUN pnpm build
 
 # ---------------------------------------------------------
