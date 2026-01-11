@@ -18,7 +18,7 @@ WORKDIR /usr/src/flowise
 
 # 🛠️ CORREÇÃO: Remova o tsconfig.json desta linha, já que ele não existe na raiz.
 # Deixe o turbo.json com o curinga (*) para garantir que não quebre se ele também não estiver aí.
-COPY pnpm-lock.yaml pnpm-workspace.yaml package.json turbo.jso* ./
+COPY pnpm-lock.yaml pnpm-workspace.yaml package.json turbo.jso* .npmr* ./
 
 # Este comando abaixo já leva os tsconfig.json internos (components e server)
 COPY packages ./packages
@@ -30,6 +30,7 @@ RUN echo '{"compilerOptions": {"composite": true}}' > tsconfig.json
 
 # Agora instale e builde
 RUN pnpm install --no-frozen-lockfile
+RUN pnpm add zod --filter flowise-ui
 RUN pnpm build
 
 # ---------------------------------------------------------
